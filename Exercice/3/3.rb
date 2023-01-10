@@ -8,7 +8,7 @@ end
 
 semaine.each do |item|
   if jour === item && jour != 'Dimanche'
-    puts "Jour suivant :   #{semaine[i + 1]}"
+    puts "Jour suivant :  #{semaine[i + 1]}"
   end
 end
 
