@@ -17,8 +17,8 @@
   #puts "Votre #{chiffre} est trop petit :("
 
 #elsif chiffre > adeviner
- # puts "Votre #{chiffre} est trop grand"
-  
+  # puts "Votre #{chiffre} est trop grand"
+
 #else
   #puts "Bravo vous avez trouvez le bon chiffre :)"
 #end
@@ -26,11 +26,11 @@
 
 cmd = gets.chomp
 
-case cmd 
+case cmd
 when "add"
     puts "Ajouter un produit"
 when "rm"
     puts "Supression de produit"
-else 
+else
     puts "Commande inconnue"
-end 
+end
