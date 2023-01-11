@@ -9,17 +9,28 @@
   #puts "Votre chiffre est impair"
 #end
 
-puts "Entrez un chiffre"
-chiffre = gets.chomp.to_i
-adeviner = 15
+#puts "Entrez un chiffre"
+#chiffre = gets.chomp.to_i
+#adeviner = 15
 
-if chiffre < adeviner
-  puts "Votre #{chiffre} est trop petit :("
+#if chiffre < adeviner
+  #puts "Votre #{chiffre} est trop petit :("
 
-elsif chiffre > adeviner
-  puts "Votre #{chiffre} est trop grand"
+#elsif chiffre > adeviner
+ # puts "Votre #{chiffre} est trop grand"
   
-else
-  puts "Bravo vous avez trouvez le bon chiffre :)"
-end
+#else
+  #puts "Bravo vous avez trouvez le bon chiffre :)"
+#end
 
+
+cmd = gets.chomp
+
+case cmd 
+when "add"
+    puts "Ajouter un produit"
+when "rm"
+    puts "Supression de produit"
+else 
+    puts "Commande inconnue"
+end 
